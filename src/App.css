@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+ 
+ 
 }
 
 .App-logo {
@@ -28,11 +30,49 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Movie-container{
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  padding: 30px;
+  
+}
+.Movie-wrapper{
+  width: 300px;
+  background-color: wheat;
+  color: black;
+}
+
+.Movie-image{
+  width: 300px;
+}
+.Movie-title{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 12px;
+}
+
+.Movie-date{
+  color: black;
+  margin-top: 10px;
+  font-style: italic;
+
+}
+.Movie-rate{
+  color: red;
+  margin-bottom: 15px;
+}
+
+.Movie-search{
+  height: 38px;
+  font-size: 24px;
+  margin-bottom: 38px;
+  padding: 16px;
+  font-weight: bold;
+  width: 475px;
+  border-radius: 50px;
 }
